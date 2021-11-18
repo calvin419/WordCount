@@ -41,6 +41,6 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         JSONObject json = getJson(givenUrl);
         int occurrences = getOccurrences(json);
-        System.out.println(occurrences);
+        System.out.println("Occurrences of Cincinnati: " + occurrences);
     }
 }
